@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const questions = [
   { question: 'Qual é a principal característica do Sonic?', options: ['Sua supervelocidade', 'Sua força para voar', 'Sua capacidade de ficar invisível', 'Sua habilidade de nadar'], answer: 0, fact: 'Sonic é conhecido por correr em velocidades incríveis!' },
